@@ -37,7 +37,7 @@ defmodule EctoIdentifier.MixProject do
   defp deps do
     [
       {:ecto, "~> 2.2"},
-      {:nanoid, "~> 1.0"},
+      {:nanoid, "~> 2.0.1"},
       {:credo, "~> 0.9", only: :dev, runtime: false},
       {:excoveralls, "~> 0.7", only: :test},
       {:postgrex, "~> 0.13", only: :test},
